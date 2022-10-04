@@ -1,0 +1,125 @@
+[
+    {
+    "id":1,
+    "idCategory":"Deck", 
+    "nombre":"Gillet",
+    "marca":"Primitive",
+    "precio": 500,
+    "stock": 5,
+    "img": "deck_1.jpg"
+},
+
+    {
+    "id":2, 
+    "idCategory":"Deck",
+    "nombre":"Vianna",
+    "marca":"Primitive",
+    "precio": 400,
+    "stock": 5,
+    "img": "deck_2.jpg"
+},
+
+    {
+    "id":3, 
+    "idCategory":"Deck",
+    "nombre":"Hamilton",
+    "marca":"Primitive",
+    "precio": 700,
+    "stock": 4,
+    "img": "deck_3.jpg"
+},
+
+    {
+    "id":4, 
+    "idCategory":"Deck",
+    "nombre":"Silvas",
+    "marca":"Primitive",
+    "precio": 700,
+    "stock": 4,
+    "img": "deck_4.jpg"
+},
+
+{
+    "id":5, 
+    "idCategory":"Trucks",
+    "nombre":"Green",
+    "marca":"Bullet",
+    "precio": 200,
+    "stock": 5,
+    "img": "trucks1.jpg"
+},
+
+    {
+    "id":6, 
+    "idCategory":"Trucks",
+    "nombre":"Red",
+    "marca":"Bullet",
+    "precio": 200,
+    "stock": 5,
+    "img": "trucks2.jpg"
+},
+
+    {
+    "id":7, 
+    "idCategory":"Trucks",
+    "nombre":"Purple",
+    "marca":"Bullet",
+    "precio": 200,
+    "stock": 4,
+    "img": "trucks3.jpg"
+},
+
+    {
+    "id":8, 
+    "idCategory":"Trucks",
+    "nombre":"Blue",
+    "marca":"Bullet",
+    "precio": 200,
+    "stock": 4,
+    "img": "trucks4.jpg"
+},
+
+{
+    "id":10, 
+    "idCategory":"Wheels",
+    "nombre":"Green",
+    "marca":"Spitfire",
+    "precio": 300,
+    "stock": 5,
+    "img": "wheel1.jpg"
+},
+
+    {
+    "id":11, 
+    "idCategory":"Wheels",
+    "nombre":"Red",
+    "marca":"Spitfire",
+    "precio": 300,
+    "stock": 5,
+    "img": "wheel2.jpg"
+},
+
+    {
+    "id":12, 
+    "idCategory":"Wheels",
+    "nombre":"Purple",
+    "marca":"Spitfire",
+    "precio": 300,
+    "stock": 4,
+    "img": "wheel3.jpg"
+},
+
+    {
+    "id":13, 
+    "idCategory":"Wheels",
+    "nombre":"Blue",
+    "marca":"Spitfire",
+    "precio": 300,
+    "stock": 4,
+    "img": "wheel4.jpg"
+}
+
+
+
+
+]
