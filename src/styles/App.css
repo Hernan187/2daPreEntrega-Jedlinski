@@ -3,6 +3,10 @@
     margin: 5px;
 }
 
+.all {
+    margin: 50px;
+}
+
 .row, .fila, .rola {
     display: flex;
     justify-content: space-around;

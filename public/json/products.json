@@ -1,7 +1,7 @@
 [
     {
-    "id":1,
-    "idCategory":"Deck", 
+    "id":"1",
+    "idCategory":1, 
     "nombre":"Gillet",
     "marca":"Primitive",
     "precio": 500,
@@ -10,8 +10,8 @@
 },
 
     {
-    "id":2, 
-    "idCategory":"Deck",
+    "id":"2", 
+    "idCategory":1,
     "nombre":"Vianna",
     "marca":"Primitive",
     "precio": 400,
@@ -20,8 +20,8 @@
 },
 
     {
-    "id":3, 
-    "idCategory":"Deck",
+    "id":"3", 
+    "idCategory":1,
     "nombre":"Hamilton",
     "marca":"Primitive",
     "precio": 700,
@@ -30,8 +30,8 @@
 },
 
     {
-    "id":4, 
-    "idCategory":"Deck",
+    "id":"4", 
+    "idCategory":1,
     "nombre":"Silvas",
     "marca":"Primitive",
     "precio": 700,
@@ -40,8 +40,8 @@
 },
 
 {
-    "id":5, 
-    "idCategory":"Trucks",
+    "id":"5", 
+    "idCategory":2,
     "nombre":"Green",
     "marca":"Bullet",
     "precio": 200,
@@ -50,8 +50,8 @@
 },
 
     {
-    "id":6, 
-    "idCategory":"Trucks",
+    "id":"6", 
+    "idCategory":2,
     "nombre":"Red",
     "marca":"Bullet",
     "precio": 200,
@@ -60,8 +60,8 @@
 },
 
     {
-    "id":7, 
-    "idCategory":"Trucks",
+    "id":"7", 
+    "idCategory":2,
     "nombre":"Purple",
     "marca":"Bullet",
     "precio": 200,
@@ -70,8 +70,8 @@
 },
 
     {
-    "id":8, 
-    "idCategory":"Trucks",
+    "id":"8", 
+    "idCategory":2,
     "nombre":"Blue",
     "marca":"Bullet",
     "precio": 200,
@@ -80,8 +80,8 @@
 },
 
 {
-    "id":10, 
-    "idCategory":"Wheels",
+    "id":"9", 
+    "idCategory":3,
     "nombre":"Green",
     "marca":"Spitfire",
     "precio": 300,
@@ -90,8 +90,8 @@
 },
 
     {
-    "id":11, 
-    "idCategory":"Wheels",
+    "id":"10", 
+    "idCategory":3,
     "nombre":"Red",
     "marca":"Spitfire",
     "precio": 300,
@@ -100,8 +100,8 @@
 },
 
     {
-    "id":12, 
-    "idCategory":"Wheels",
+    "id":"11", 
+    "idCategory":3,
     "nombre":"Purple",
     "marca":"Spitfire",
     "precio": 300,
@@ -110,8 +110,8 @@
 },
 
     {
-    "id":13, 
-    "idCategory":"Wheels",
+    "id":"12", 
+    "idCategory":3,
     "nombre":"Blue",
     "marca":"Spitfire",
     "precio": 300,

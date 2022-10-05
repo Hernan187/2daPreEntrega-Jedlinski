@@ -5,7 +5,8 @@ import Home from '../src/components/home';
 import Footer from './components/footer';
 import Carrito from './components/carrito';
 import Producto from './components/producto';
-import Contacto from './components/contacto'
+import Contacto from './components/contacto';
+import Categoria from './components/categoria';
 
 const App = () => {
   
@@ -19,6 +20,7 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="/producto/:id" element={<Producto/>} />
+              <Route path="/categoria/:id" element={<Categoria/>} />
               <Route path="/contacto" element={<Contacto/>} />
               <Route path="/carrito" element={<Carrito/>} />
 
