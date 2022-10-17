@@ -1,12 +1,14 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useContext} from 'react';
 import DetalleProducto from './detalleProducto';
 import { useParams } from 'react-router-dom';
+import { DarkModeContext } from '../context/darkModeContext';
 import '../styles/App.css';
 
 const Producto = () => {
 
     const [producto, setProducto] = useState([]);
     const {id} = useParams()
+    const {darkMode} = useContext(DarkModeContext);
 
     useEffect(() => {
 
@@ -23,7 +25,7 @@ const Producto = () => {
 
     return (
         <>
-            <div className="card mb-3 all" data-aos="fade-right" style={{maxWidth: '540px'}}>
+            <div className={darkMode ? 'darkMode card mb-3' : 'card mb-3'} data-aos="fade-right" style={{maxWidth: '540px'}}>
             <DetalleProducto producto={producto}/>
             </div>
         </>

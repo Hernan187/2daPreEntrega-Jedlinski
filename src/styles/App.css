@@ -26,9 +26,10 @@
 }
 
 .foto {
-    width: 2em;
-    height: 2em;
-    margin: 10px;
+    width: 22px;
+    height: 22px;
+    margin: 2px;
+    padding: 2px;
 }
 
 /* .background {

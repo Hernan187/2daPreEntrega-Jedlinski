@@ -1,6 +1,7 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from './components/navbar';
 import "./styles/App.css";
+import { DarkModeProvider } from './context/darkModeContext';
 import Home from '../src/components/home';
 import Footer from './components/footer';
 import Carrito from './components/carrito';
@@ -14,6 +15,7 @@ const App = () => {
     return (
         <>
 
+        <DarkModeProvider props= {"hola"}>
           <BrowserRouter>
            <Navbar/>
 
@@ -23,12 +25,14 @@ const App = () => {
               <Route path="/categoria/:id" element={<Categoria/>} />
               <Route path="/contacto" element={<Contacto/>} />
               <Route path="/carrito" element={<Carrito/>} />
+              <Route path="*" element={<h1> Error 404 : Page Not Found </h1>}/>
 
             </Routes>
 
 
            <Footer/>
           </BrowserRouter>
+        </DarkModeProvider>
 
         </>
     );

@@ -1,16 +1,17 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { useParams, Link } from "react-router-dom";
 import { consultar } from "../functions/functions";
+import { DarkModeContext } from "../context/darkModeContext";
 
 const Categoria = () => {
 
 
     const [productos, setProductos] = useState([]);
     const {id} = useParams()
+    const {darkMode} = useContext(DarkModeContext);
+
     useEffect(() => {
 
-
-        
         consultar('../json/products.json').then(productos => {
             const productoCategoria = productos.filter(producto => producto.idCategory == id)
 
@@ -33,7 +34,7 @@ const Categoria = () => {
     }, [id]);
 
     return (
-        <div className="row" data-aos="fade-in" >
+        <div className={darkMode ? 'darkMode row' : 'row'}  >
             {productos}
         </div>
     );

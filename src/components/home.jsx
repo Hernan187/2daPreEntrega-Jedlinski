@@ -1,10 +1,14 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useContext} from 'react';
 import { consultar } from '../functions/functions';
+import { DarkModeContext } from '../context/darkModeContext';
 import Main from './main';
 import {Link} from 'react-router-dom';
 
 const Home = () => {
     const [productos, setProductos] = useState([]);
+
+    const {darkMode} = useContext(DarkModeContext);
+
     useEffect(() => {
         consultar().then(productos => {
             
@@ -26,11 +30,12 @@ const Home = () => {
 
 
     return (
-        <div className="row">
+        <div className={darkMode ? 'darkMode row' : 'row'}>
             <Main/>
             <div className='xd'>
             {productos}     
             </div>
+            <p> {darkMode} </p>
         </div>      
         
         
