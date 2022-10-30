@@ -1,19 +1,22 @@
 
 
-alright.. la idea me surgio por el amor al skate y pense qe tenia todo lo necesario para ser un e-commerce 
-le agregue unas fotos para sumar al diseño, hay un parrafo gigante de lorem jajaj qe cuando tenga listo 
-el qe poner lo cambio
+Alright.. la idea me surgio por el amor al skate y pense qe tenia todo lo necesario para ser un e-commerce 
+le agregue unas fotos para sumar al diseño, hay un parrafo gigante de una frase iconica que seguro la sacas jajaj 
 
-mi proyecto tiene 3 categorias de productos, claves para el skate, un footer con un tip de vida
+Mi proyecto tiene 3 categorias de productos, claves para el skate, un footer con un tip de vida
 un navbar tranqui , NO pude aplicar el tema de los iconos porqe nunca encontre el link de awesomefonts
 y eso qe me registre todo, es mas copie un link qe me mandaron en mi html pero no era similar al del profe
 por ende calculo qe no estaba bien ruteado, si me dicen como arreglarlo lo cambio 
 
-y bueno tambien le agregue un efecto de trancision al clickear el producto seleccionado qe se redirige
-a la seccion de Detalleproducto
+Y bueno tambien le agregue un efecto de trancision al clickear el producto seleccionado desde el home 
+qe se redirige a la seccion de Detalleproducto.
+Lo que mas me costo fue desde la clase de firebase, y todo lo relacionado a backend no es mi fuerte,
+si bien esa parte la copie de su codigo profe me hubiera sido imposible sin su ayuda, estoy seguro qe muchos
+alumnes habran hecho lo mismo.. en fin esta ultima parte no le pude dedicar el tiempo deseado, 
+pero pienso reveer todo el curso y carrera depaso para podeer seguir aprendiendo, 
+porqe los 3 cursos fueron seguidos y con mucho contenido y entregas/deadlines que 
+cumplir, termine mareado con tanta data. 
 
-en fin se qe se puede mejorar pero bueno honestamente me costo seguir el ritmo ultimamente 
-pero veo qe esta quedando bello el proyecto asiqe vale la pena jaj 
+Anyways gracias x la enseñanza sensei 
 
-saludos
-
+Saludos !

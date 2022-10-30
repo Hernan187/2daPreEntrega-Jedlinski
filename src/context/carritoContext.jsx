@@ -8,12 +8,14 @@ const CarritoProvider = (props) => {
 
     const agregarProducto = (prod, cant) => {
         const aux = carrito
-        let indice = aux.findIndex(producto => producto.id  == prod.id) 
+        let indice = aux.findIndex(producto => producto.id === prod.id) 
 
-        if(indice != -1) {
+        if(indice !== -1) {
             aux[indice].cantidad = cant
         } else {
-          const prodCarrito = {...prod, cantidad: cant}
+            const id = prod[0]
+            const x = prod[1]
+          const prodCarrito = {id, ...x, cantidad: cant}
           aux.push(prodCarrito)
         }
         setCarrito(structuredClone(aux))
@@ -23,12 +25,11 @@ const CarritoProvider = (props) => {
 
     const quitarProducto = (prod) => {
         const aux = carrito
-        let indice = aux.findIndex(producto => producto.id  == prod.id) 
+        let indice = aux.findIndex(producto => producto.id  === prod.id) 
 
         aux.splice(indice,1)
         setCarrito(structuredClone(aux))
         console.log(carrito)
-
     }
 
     return (

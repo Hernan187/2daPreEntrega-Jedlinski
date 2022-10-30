@@ -6,7 +6,7 @@
     "marca":"Primitive",
     "precio": 500,
     "stock": 5,
-    "img": "deck_1.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/skateshop-3cb1c.appspot.com/o/images%2Fdeck_1.jpg?alt=media&token=8671be09-3a23-4418-b436-0f431f3de985"
 },
 
     {
@@ -16,7 +16,7 @@
     "marca":"Primitive",
     "precio": 400,
     "stock": 5,
-    "img": "deck_2.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/skateshop-3cb1c.appspot.com/o/images%2Fdeck_2.jpg?alt=media&token=95aaf3a0-b167-456c-b550-ac45d1102143"
 },
 
     {
@@ -26,7 +26,7 @@
     "marca":"Primitive",
     "precio": 700,
     "stock": 4,
-    "img": "deck_3.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/skateshop-3cb1c.appspot.com/o/images%2Fdeck_3.jpg?alt=media&token=c8c540ec-badd-4482-a55f-477ba4951c52"
 },
 
     {
@@ -36,7 +36,7 @@
     "marca":"Primitive",
     "precio": 700,
     "stock": 4,
-    "img": "deck_4.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/skateshop-3cb1c.appspot.com/o/images%2Fdeck_4.jpg?alt=media&token=65a77393-a4f2-49d4-91e1-b1acfd63ea03"
 },
 
 {
@@ -46,7 +46,7 @@
     "marca":"Bullet",
     "precio": 200,
     "stock": 5,
-    "img": "trucks1.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/skateshop-3cb1c.appspot.com/o/images%2Ftrucks1.jpg?alt=media&token=beb62dcd-ec8a-49f7-81c4-6382fed58a0a"
 },
 
     {
@@ -56,7 +56,7 @@
     "marca":"Bullet",
     "precio": 200,
     "stock": 5,
-    "img": "trucks2.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/skateshop-3cb1c.appspot.com/o/images%2Ftrucks2.jpg?alt=media&token=e84b267d-7508-46f2-871a-854640c3241c"
 },
 
     {
@@ -66,7 +66,7 @@
     "marca":"Bullet",
     "precio": 200,
     "stock": 4,
-    "img": "trucks3.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/skateshop-3cb1c.appspot.com/o/images%2Ftrucks3.jpg?alt=media&token=99cbef91-b3b7-48c4-8ffc-89657a970d23"
 },
 
     {
@@ -76,7 +76,7 @@
     "marca":"Bullet",
     "precio": 200,
     "stock": 4,
-    "img": "trucks4.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/skateshop-3cb1c.appspot.com/o/images%2Ftrucks4.jpg?alt=media&token=15e06835-dd4e-469a-a05f-fa764ca0b918"
 },
 
 {
@@ -86,7 +86,7 @@
     "marca":"Spitfire",
     "precio": 300,
     "stock": 5,
-    "img": "wheel1.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/skateshop-3cb1c.appspot.com/o/images%2Fwheel1.jpg?alt=media&token=a9b03332-e5de-4481-abed-280676d75413"
 },
 
     {
@@ -96,7 +96,7 @@
     "marca":"Spitfire",
     "precio": 300,
     "stock": 5,
-    "img": "wheel2.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/skateshop-3cb1c.appspot.com/o/images%2Fwheel2.jpg?alt=media&token=fec2b510-82a3-4afc-a979-6f91f638a21d"
 },
 
     {
@@ -106,7 +106,7 @@
     "marca":"Spitfire",
     "precio": 300,
     "stock": 4,
-    "img": "wheel3.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/skateshop-3cb1c.appspot.com/o/images%2Fwheel3.jpg?alt=media&token=6b80ba26-f2c4-4806-b3a6-0331c7343071"
 },
 
     {
@@ -116,7 +116,7 @@
     "marca":"Spitfire",
     "precio": 300,
     "stock": 4,
-    "img": "wheel4.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/skateshop-3cb1c.appspot.com/o/images%2Fwheel4.jpg?alt=media&token=9ef5aa4c-7e3b-4727-92ab-9f0a505f0de6"
 }
 
 

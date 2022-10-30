@@ -15,7 +15,7 @@ const App = () => {
     return (
         <>
 
-        <DarkModeProvider props= {"hola"}>
+        <DarkModeProvider props= {"hi"}>
           <BrowserRouter>
            <Navbar/>
 

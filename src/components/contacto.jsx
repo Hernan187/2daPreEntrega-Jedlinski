@@ -21,16 +21,16 @@ const Contacto = () => {
             <div className="mb-3">
             <label htmlFor="nombre" className="form-label">Name</label>
             <input type="text" className="form-control" name="nombre" />
-        </div>
-        <div className="mb-3">
-        <label htmlFor="email" className="form-label">Email</label>
+              </div>
+              <div className="mb-3">
+            <label htmlFor="email" className="form-label">Email</label>
             <input type="email" className="form-control" name="email"  />
-        </div>
-        <div className="mb-3">
-            <textarea name="consulta" rows={10} cols={50} defaultValue={"Escribi su consulta aqui"} />
-        </div>
-            <button type="submit" className="btn btn-success">Enviar Consulta</button>
-        </form>
+              </div>
+              <div className="mb-3">
+            <textarea name="consulta" rows={10} cols={50} defaultValue={" "} />
+              </div>
+            <button type="submit" className="btn btn-success">Send it</button>
+            </form>
             </div>
             
         </>

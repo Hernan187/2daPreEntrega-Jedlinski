@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import { CarritoProvider } from './context/carritoContext';
 import App from './App';
+// import "./functions/z.js";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,5 +13,4 @@ root.render(
   </CarritoProvider>
   // </React.StrictMode>
 );
-
 
